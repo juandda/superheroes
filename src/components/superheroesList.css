@@ -1,0 +1,82 @@
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-container button {
+  margin: 0 5px;
+}
+
+.pagination-container .active {
+  font-weight: bold;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.banner {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.search-bar .form-control {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.active {
+  background-color: #007bff;
+  color: #fff;
+}
